@@ -1,0 +1,79 @@
+
+
+#loading{
+
+    -fx-background-color: #263238;
+
+}
+
+
+#fun{
+
+    -fx-background-color: #263238;
+    -fx-border-color: #455A64;
+
+}
+
+#content{
+
+    -fx-background-color: #263238;
+    -fx-border-color: #34495E;
+
+}
+
+
+#fun:hover{
+
+    -fx-background-color: #3c5460;
+    -fx-border-color: #455A64;
+    -fx-cursor: hand;
+
+}
+
+#turnoff{
+
+    -fx-image: url('turnoff.png')
+
+}
+
+#turnoff:hover{
+
+    -fx-image: url('turnoff_selected.png')
+
+}
+
+#minimize{
+
+    -fx-image: url('minimize.png')
+
+}
+
+#minimize:hover{
+
+    -fx-image: url('minimize_selected.png')
+
+}
+
+#close{
+
+    -fx-image: url('close.png')
+
+}
+
+#close:hover{
+
+    -fx-image: url('close_selected.png')
+
+}
+
+#back{
+
+    -fx-image: url('back.png')
+
+}
+
+#back:hover{
+
+    -fx-image: url('back_selected.png')
+
+}

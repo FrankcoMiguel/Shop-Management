@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Shop_Management.jnlp">
+  <information>
+    <title>Shop Management</title>
+    <vendor>Frank Orozco</vendor>
+    <description>Shop Management</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Shop_Management.jar" size="144469" download="eager" />
+    <jar href="lib\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="lib\sqlite_driver.jar" size="6190949" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="Main"  name="Shop Management" />
+  <update check="background"/>
+</jnlp>
